@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        let min = 1;
+        let nombre;
+        let total;
+
+        nombre = prompt('Ingrese su nombre');
+        cumple = prompt('Hoy es  cumpleaños (S/N)');
+        total = parseInt(prompt('Ingrese el total a pagar'));
+
+        if (total >= min) {
+
+        } else {
+            alert('Debe ingresar un numero mayor a cero');
+
+        }
+
+
+        if (total <= 20) {
+            alert('total a pagar ' + nombre + ' $' + total * 0.90 + ' con descuento ya incluido y si es cliente vip su total a pagar es $' + total * 0.80);
+        }
+
+        else if (total <= 100) {
+            alert('total a pagar ' + nombre + ' $' + total * 0.70 + ' con descuento ya incluido y si es cliente vip su total a pagar es $' + total * 0.60);
+        }
+
+        else if (intentos > 100) {
+            alert('total a pagar ' + nombre + ' $' + total * 0.50 + ' con descuento ya incluido y si es cliente vip su total a pagar es $' + total * 0.40);
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
